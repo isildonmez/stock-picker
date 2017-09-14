@@ -35,14 +35,13 @@ def stock_picker2(my_array)
 end
 
 
-puts stock_picker([17,3,6,9,15,8,6,1,10]).to_s
-puts stock_picker([17,16,16]).to_s
-puts stock_picker([17]).to_s
-puts stock_picker([16,17,17]).to_s
-puts stock_picker([17,16,17,18]).to_s
+p stock_picker([17,3,6,9,15,8,6,1,10])
+p stock_picker([17,16,16])
+p stock_picker([17])
+p stock_picker([16,17,17])
+p stock_picker([17,16,17,18])
 
-puts stock_picker2([17,3,6,9,15,8,6,1,10]).to_s
-puts stock_picker2([17,16,16]).to_s
-puts stock_picker2([17]).to_s
-puts stock_picker2([16,17,17]).to_s
-puts stock_picker2([17,16,17,18]).to_s
+p stock_picker2([17,3,6,9,15,8,6,1,10])
+p stock_picker2([17,16,16])
+p stock_picker2([16,17,17])
+p stock_picker2([17,16,17,18])
